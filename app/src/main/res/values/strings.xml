@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Jan Sahyog</string>
+    <string name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </string>
+    <string name="email_not_verified">Email not Verified !!</string>
+    <string name="verify_now">Verify Now!</string>
+    <string name="last_name">Last Name</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="title_activity_customer_map">Map</string>
+    <string-array name="Spinner_items">
+        <item>Criminal Activity</item>
+        <item>Dead Body</item>
+        <item>Lost/Found</item>
+        <item>Appreciation/Feedback</item>
+        <item>Information</item>
+        <item>Others</item>
+    </string-array>
+</resources>

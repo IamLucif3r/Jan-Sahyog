@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "936281424378",
+    "firebase_url": "https://mp-police-c85b4.firebaseio.com",
+    "project_id": "mp-police-c85b4",
+    "storage_bucket": "mp-police-c85b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936281424378:android:e2a634cc8ea1c21601e443",
+        "android_client_info": {
+          "package_name": "application.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936281424378-dapkp4hstm5f85vmh3tb27qpr4u8s8dq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2Pn2XatnYaQ2iz7NCR4--tDeRoy12XT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936281424378-dapkp4hstm5f85vmh3tb27qpr4u8s8dq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

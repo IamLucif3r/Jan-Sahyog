@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".sosEmergency">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="87.5dp"
+        android:backgroundTint="#ffffff"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:onClick="ambulance"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ambulance"
+            tools:ignore="ContentDescription" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        app:cardCornerRadius="87.5dp"
+        android:backgroundTint="#ffffff"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:onClick="fire"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fire"
+            tools:ignore="ContentDescription" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        app:cardCornerRadius="87.5dp"
+        android:backgroundTint="#ffffff"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:onClick="police"
+            android:scaleType="centerCrop"
+            android:src="@drawable/police"
+            tools:ignore="ContentDescription" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/my_text"
+        android:fontFamily="@font/capriola"
+        android:onClick="ambulance"
+        android:text="Ambulance"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#EF0707"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/my_text"
+        android:fontFamily="@font/capriola"
+        android:onClick="fire"
+        android:text="FireStation"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#EF0707"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/my_text"
+        android:fontFamily="@font/capriola"
+        android:onClick="police"
+        android:text="Police Station"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#EF0707"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+
+
+
+
+</RelativeLayout>

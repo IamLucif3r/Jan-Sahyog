@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Driver_Rating">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/sintony"
+            android:padding="10dp"
+            android:text="Need A Driver ?"
+            android:textAlignment="center"
+            android:textColor="#FCC128"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sintony"
+            android:text="Choose According to your Location"
+            android:textAlignment="center"
+            android:textColor="#FCC128"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/sintony"
+            android:text="And Don't Forget to Rate your Driver! "
+            android:textAlignment="center"
+            android:textColor="#FCC128"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/list1"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/edit_text_borfer"
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </ListView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#FFC128"
+            android:fontFamily="@font/sintony"
+            android:padding="10dp"
+            android:text="back"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

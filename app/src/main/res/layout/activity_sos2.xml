@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sos2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="377dp"
+        android:layout_height="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/capriola"
+        android:text="Messages"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="170dp"
+        android:textColor="#ffffff"
+        android:button="@drawable/custom_radiobutton"
+        android:text="  Accident, Need Help"
+        android:onClick="selectR1"/>
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:textSize="23sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:button="@drawable/custom_radiobutton"
+        android:text="  Murder, Need Help"
+        android:onClick="selectR2"
+        tools:ignore="OnClick" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:onClick="selectR3"
+        android:text="  Kidnapped, Need Help"
+        android:layout_marginLeft="10dp"
+        android:button="@drawable/custom_radiobutton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        tools:ignore="OnClick" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:textSize="23sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:textColor="#ffffff"
+        android:button="@drawable/custom_radiobutton"
+        android:layout_marginLeft="10dp"
+        android:text="  Theft, Need Help"
+        android:onClick="selectR4"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#4B8A02"
+        android:onClick="sos_message"
+        android:text="Next"
+        android:textSize="25sp"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="83dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/ic_arrow_forward_black_24dp" />
+
+
+</RelativeLayout>

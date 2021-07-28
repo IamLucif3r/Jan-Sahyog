@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name=".myApp"
+    package="application.example.myapp">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".onBoarding1"></activity>
+        <activity android:name=".QRCodeScanner" />
+        <activity android:name=".QRCode" />
+        <activity android:name=".Ratings" />
+        <activity android:name=".driver_info" />
+        <activity android:name=".driver_list" />
+        <activity android:name=".DecideReward" />
+        <activity android:name=".GetReward" />
+        <activity android:name=".DriverSettingsActivity" />
+        <activity android:name=".jobs_main" />
+        <activity android:name=".jobs_available" />
+        <activity android:name=".jobs" />
+        <activity android:name=".About_Driver" />
+        <activity android:name=".Driver_Rating" />
+        <activity android:name=".Post" />
+        <activity android:name=".task_main" />
+        <activity android:name=".Rewardsoption" />
+        <activity android:name=".CustomerSettingsActivity" />
+        <activity android:name=".drivers_available" />
+        <activity android:name=".Reporting1" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".CustomerMapActivity"
+            android:label="@string/title_activity_customer_map" />
+        <activity
+            android:name=".DriverMapActivity"
+            android:label="@string/title_activity_driver_map" />
+        <activity
+            android:name=".MapsActivity2"
+            android:label="@string/title_activity_maps2" />
+        <activity android:name=".cab1" />
+        <activity android:name=".sos_sos" />
+        <activity android:name=".sosContact" />
+        <activity android:name=".sos_mainscreen" />
+        <activity android:name=".khatabook" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".ProfileView" />
+        <activity android:name=".profile1" />
+        <activity android:name=".fianlprofile1" />
+        <activity android:name=".serviceHome" />
+        <activity android:name=".sosEmergencyContacts" />
+        <activity android:name=".sosEmergency" />
+        <activity android:name=".sosconfirm" />
+        <activity android:name=".sos2" />
+        <activity android:name=".sos1" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".home" />
+        <activity android:name=".signup" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

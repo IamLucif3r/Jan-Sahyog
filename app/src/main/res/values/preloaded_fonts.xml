@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/amaranth_bold</item>
+        <item>@font/artifika</item>
+        <item>@font/bubblegum_sans</item>
+        <item>@font/bungee</item>
+        <item>@font/cantata_one</item>
+        <item>@font/capriola</item>
+        <item>@font/delius_unicase_bold</item>
+        <item>@font/hammersmith_one</item>
+        <item>@font/sintony</item>
+    </array>
+</resources>

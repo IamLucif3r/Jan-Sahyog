@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sos" type="id" />
+    <item name="task" type="id" />
+    <item name="reward" type="id" />
+    <item name="report" type="id" />
+<item name="card" type="id"/>
+    <item name="card2" type="id"/>
+    <item name="card3" type="id"/>
+
+    <item name="dp" type="id"/>
+    <item name="upload1" type="id"/>
+    <item name="upload2" type="id"/>
+    <item name="uber" type="id"/>
+    <item name="driver" type="id" />
+    <item name="cab" type="id" />
+
+</resources>

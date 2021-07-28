@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/images"
+    android:layout_height="match_parent"
+    tools:context=".sosEmergencyContacts">
+
+    <TextView
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Enter the Contact Nuber whom you want to send Messages in case of Emergency"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact1:"
+        android:layout_marginTop="150dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="#D8FFAC"
+        />
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="150dp"
+        android:inputType="number"
+        android:textColor="#ffffff"
+        android:id="@+id/cont1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact2:"
+        android:layout_marginTop="250dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#D8FFAC"
+        />
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="150dp"
+        android:inputType="number"
+        android:textColor="#ffffff"
+        android:id="@+id/cont2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact3:"
+        android:layout_marginTop="350dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="#D8FFAC"
+        />
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="150dp"
+        android:inputType="number"
+        android:textColor="#ffffff"
+        android:id="@+id/cont3"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="Submit"
+        android:backgroundTint="#4B8A02"
+        android:background="@drawable/custom_button"
+        android:textSize="25sp"
+        android:onClick="save_contact2"
+        tools:ignore="OnClick" />
+
+</RelativeLayout>
