@@ -19,26 +19,32 @@ The features of the Application is mentioned as follows, and you can find the sc
 ---
 
 ## Screenshots
-- Home
-	![](assets/home.jpg)
+
+	
+- Home Screen <br/>
+
+<p align="center"><img src="assets/home.jpg" width=280 height = 500 /></p>
+ 
 	
 - SOS Service + Emergency Calls
 	
-	![](assets/sos.jpg)
+	<p align="center"><img src="assets/sos.jpg" width=280 height = 500 /></p>
 
-- Crime / Incident Reporting
-		
-	![](assets/crime.jpg)
+	
+- Crime / Incident Reporting![](assets/forum.jpg)
+
+<p align="center"><img src="assets/crime.jpg" width=280 height = 500 /></p>
 
 - Job Portal
 	
-	![](assets/job0.jpg) ![](assets/job.jpg)
+<p align="center"> <img src="assets/job0.jpg" width=280 height = 500 /> &nbsp; &nbsp; &nbsp; <img src="assets/job.jpg" width=280 height = 500 /></p>
 	
 - Forum
 	
-	![](assets/forum.jpg)
-	
----
+	<p align="center"><img src="assets/forum.jpg" width=280 height = 500 /></p>
+
+
+<hr>
 
 ## :point_right: Contribution
 If you feel like adding any features, you are welcome. Fork this repository, apply the changes and send me the PR, I'll merge your changes.
