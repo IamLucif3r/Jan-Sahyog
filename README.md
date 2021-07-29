@@ -31,7 +31,7 @@ The features of the Application is mentioned as follows, and you can find the sc
 	<p align="center"><img src="assets/sos.jpg" width=280 height = 500 /></p>
 
 	
-- Crime / Incident Reporting![](assets/forum.jpg)
+- Crime / Incident Reporting
 
 <p align="center"><img src="assets/crime.jpg" width=280 height = 500 /></p>
 
