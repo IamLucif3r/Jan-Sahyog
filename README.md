@@ -48,5 +48,7 @@ The features of the Application is mentioned as follows, and you can find the sc
 
 ### 👉 Download the APK from [here](https://github.com/IamLucif3r/Jan-Sahyog/releases/tag/v1.0)
 
+🤜 Kindly report any Bugs / Improvements
+<hr>
 ## :point_right: Contribution
 If you feel like adding any features, you are welcome. Fork this repository, apply the changes and send me the PR, I'll merge your changes.
