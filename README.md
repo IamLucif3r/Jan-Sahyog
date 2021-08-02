@@ -50,5 +50,6 @@ The features of the Application is mentioned as follows, and you can find the sc
 
 🤜 Kindly report any Bugs / Improvements
 <hr>
+
 ## :point_right: Contribution
 If you feel like adding any features, you are welcome. Fork this repository, apply the changes and send me the PR, I'll merge your changes.
